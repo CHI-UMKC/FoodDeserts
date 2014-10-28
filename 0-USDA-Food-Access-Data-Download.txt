@@ -1,0 +1,34 @@
+[1] "2014-09-09 17:01:29 CDT"
+Current_Version/DataDownload.xlsx Food-Access-Research-Atlas-Current.xlsx 
+Data/Food-Access-Research-Atlas-Current.xlsx 
+          "02f907ab171daec19487791325c2d7ec" 
+Current_Version/documentation.pdf Food-Access-Research-Atlas-Current.pdf 
+Data/Food-Access-Research-Atlas-Current.pdf 
+         "8248f08cd901774f1eee45a10fc23d88" 
+Archived_Version/data_download.xls Food-Access-Research-Atlas-Archived.xls 
+Data/Food-Access-Research-Atlas-Archived.xls 
+          "9d4531be90c672d83b6cbc7bae645e48" 
+Archived_Version/archived_documentation.pdf Food-Access-Research-Atlas-Archived.pdf 
+Data/Food-Access-Research-Atlas-Archived.pdf 
+          "995e66d32f83b1f037621e9a559e175d" 
+[1] "2014-09-09 17:05:39 CDT"
+                                                 size isdir mode
+Data/Food-Access-Research-Atlas-Archived.pdf    78714 FALSE  666
+Data/Food-Access-Research-Atlas-Archived.xls  1177600 FALSE  666
+Data/Food-Access-Research-Atlas-Current.pdf    682016 FALSE  666
+Data/Food-Access-Research-Atlas-Current.xlsx 34978147 FALSE  666
+                                                           mtime
+Data/Food-Access-Research-Atlas-Archived.pdf 2014-09-09 17:05:39
+Data/Food-Access-Research-Atlas-Archived.xls 2014-09-09 17:05:39
+Data/Food-Access-Research-Atlas-Current.pdf  2014-09-09 17:05:31
+Data/Food-Access-Research-Atlas-Current.xlsx 2014-09-09 17:05:26
+                                                           ctime
+Data/Food-Access-Research-Atlas-Archived.pdf 2014-09-09 17:05:39
+Data/Food-Access-Research-Atlas-Archived.xls 2014-09-09 17:05:31
+Data/Food-Access-Research-Atlas-Current.pdf  2014-09-09 17:05:26
+Data/Food-Access-Research-Atlas-Current.xlsx 2014-09-09 17:01:29
+                                                           atime exe
+Data/Food-Access-Research-Atlas-Archived.pdf 2014-09-09 17:05:39  no
+Data/Food-Access-Research-Atlas-Archived.xls 2014-09-09 17:05:31  no
+Data/Food-Access-Research-Atlas-Current.pdf  2014-09-09 17:05:26  no
+Data/Food-Access-Research-Atlas-Current.xlsx 2014-09-09 17:01:29  no

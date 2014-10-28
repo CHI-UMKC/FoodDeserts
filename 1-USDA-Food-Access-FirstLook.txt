@@ -1,0 +1,286 @@
+[1] "2014-09-10 11:54:00 CDT"
+'data.frame':	72864 obs. of  64 variables:
+ $ CensusTract         : chr  "01001020100" "01001020200" "01001020300" "01001020400" ...
+ $ State               : chr  "AL" "AL" "AL" "AL" ...
+ $ County              : chr  "Autauga" "Autauga" "Autauga" "Autauga" ...
+ $ LILATracts_1And10   : num  0 0 0 0 0 0 1 0 0 0 ...
+ $ LILATracts_halfAnd10: num  0 0 0 0 0 0 1 0 0 0 ...
+ $ LILATracts_1And20   : num  0 0 0 0 0 0 1 0 0 0 ...
+ $ LILATracts_Vehicle  : num  0 0 0 0 0 0 1 0 0 0 ...
+ $ Urban               : num  1 1 1 1 1 1 1 0 0 0 ...
+ $ Rural               : num  0 0 0 0 0 0 0 1 1 1 ...
+ $ LA1and10            : num  1 0 1 1 1 1 1 0 0 1 ...
+ $ LAhalfand10         : num  1 1 1 1 1 1 1 0 0 1 ...
+ $ LA1and20            : num  1 0 1 1 1 1 1 0 0 0 ...
+ $ LATracts_half       : num  1 1 1 1 1 1 1 1 1 1 ...
+ $ LATracts1           : num  1 0 1 1 1 1 1 1 1 1 ...
+ $ LATracts10          : num  0 0 0 0 0 0 0 0 0 1 ...
+ $ LATracts20          : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ HUNVFlag            : num  0 0 0 0 1 0 1 0 0 0 ...
+ $ GroupQuartersFlag   : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ OHU2010             : num  693 743 1256 1722 4082 ...
+ $ NUMGQTRS            : num  0 181 0 0 181 0 36 0 0 14 ...
+ $ PCTGQTRS            : num  0 0.0834 0 0 0.0168 ...
+ $ LowIncomeTracts     : num  0 0 0 0 0 0 1 0 0 0 ...
+ $ POP2010             : num  1912 2170 3373 4386 10766 ...
+ $ UATYP10             : chr  "U" "U" "U" "U" ...
+ $ lapophalf           : num  1732 1410 2765 4272 7799 ...
+ $ lapophalfshare      : num  0.906 0.65 0.82 0.974 0.724 ...
+ $ lalowihalf          : num  307 485 773 874 1131 ...
+ $ lalowihalfshare     : num  0.16 0.223 0.229 0.199 0.105 ...
+ $ lakidshalf          : num  466 448 745 980 2314 ...
+ $ lakidshalfshare     : num  0.92 0.74 0.833 0.966 0.732 ...
+ $ laseniorshalf       : num  199 139 346 893 843 ...
+ $ laseniorshalfshare  : num  0.9 0.651 0.789 0.988 0.749 ...
+ $ lahunvhalf          : num  44.2 86.4 54.2 17 177.1 ...
+ $ lahunvhalfshare     : num  0.0638 0.11632 0.04314 0.00985 0.04338 ...
+ $ lapop1              : num  1357 483 1418 1909 2754 ...
+ $ lapop1share         : num  0.71 0.223 0.42 0.435 0.256 ...
+ $ lalowi1             : num  245 171 381 311 373 ...
+ $ lalowi1share        : num  0.1283 0.0787 0.1129 0.0709 0.0347 ...
+ $ lakids1             : num  364 175 377 470 746 ...
+ $ lakids1share        : num  0.717 0.288 0.422 0.463 0.236 ...
+ $ laseniors1          : num  162 51 190 374 374 ...
+ $ laseniors1share     : num  0.735 0.238 0.433 0.414 0.332 ...
+ $ lahunv1             : num  31.58 34.4 19.16 3.93 57.43 ...
+ $ lahunv1share        : num  0.04557 0.0463 0.01525 0.00228 0.01407 ...
+ $ lapop10             : num  0 0 0 0 0 ...
+ $ lapop10share        : num  0 0 0 0 0 ...
+ $ lalowi10            : num  0 0 0 0 0 ...
+ $ lalowi10share       : num  0 0 0 0 0 ...
+ $ lakids10            : num  0 0 0 0 0 ...
+ $ lakids10share       : num  0 0 0 0 0 ...
+ $ laseniors10         : num  0 0 0 0 0 ...
+ $ laseniors10share    : num  0 0 0 0 0 ...
+ $ lahunv10            : num  0 0 0 0 0 ...
+ $ lahunv10share       : num  0 0 0 0 0 ...
+ $ lapop20             : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lapop20share        : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lalowi20            : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lalowi20share       : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lakids20            : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lakids20share       : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ laseniors20         : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ laseniors20share    : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lahunv20            : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ lahunv20share       : num  0 0 0 0 0 0 0 0 0 0 ...
+[1] 72864
+
+  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA 
+ 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 
+  MA   MD   ME   MI   MN   MO   MS   MT   NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR 
+1476 1399  355 2774 1336 1393  662  271 2192  205  532  295 2007  499  687 4907 2949 1046  830 
+  PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
+3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
+[1] 3143
+
+ 3 | GroupQuartersFlag | Group quarters, tract with high share
+    0     1 
+72348   516 
+
+ 4 | HUNVFlag | Vehicle access, tract with low rate
+    0     1 
+57083 15781 
+
+ 5 | LA1and10 | Low access tract at 1 mile for urban areas or 10 miles for rural areas
+    0     1 
+44323 28541 
+
+ 6 | LA1and20 | Low access tract at 1 mile for urban areas or 20 miles for rural areas
+    0     1 
+47219 25645 
+
+ 7 | LAhalfand10 | Low access tract at 1/2 mile for urban areas or 10 miles for rural areas
+    0     1 
+22246 50618 
+
+ 48 | LATracts_half | Low access tract at 1/2 mile
+    0     1 
+ 8226 64638 
+
+ 49 | LATracts1 | Low access tract at 1 mile
+    0     1 
+30500 42364 
+
+ 50 | LATracts10 | Low access tract at 10 miles
+    0     1 
+69518  3346 
+
+ 51 | LATracts20 | Low access tract at 20 miles
+    0     1 
+72442   422 
+
+ 52 | LILATracts_1And10 | Low income and low access measured at 1 and 10 miles
+    0     1 
+63905  8959 
+
+ 53 | LILATracts_1And20 | Low income and low access measured at 1 and 20 miles
+    0     1 
+65108  7756 
+
+ 54 | LILATracts_halfAnd10 | Low income and low access measured at 1/2 and 10 miles
+    0     1 
+53050 19814 
+
+ 55 | LILATracts_Vehicle | Low income and low access using vehicle access
+    0     1 
+62407 10457 
+
+ 56 | LowIncomeTracts | Low income tract
+    0     1 
+43579 29285 
+
+ 61 | Rural | Rural tract
+    0     1 
+55296 17568 
+
+ 62 | State | State
+  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA 
+ 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 
+  MA   MD   ME   MI   MN   MO   MS   MT   NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR 
+1476 1399  355 2774 1336 1393  662  271 2192  205  532  295 2007  499  687 4907 2949 1046  830 
+  PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
+3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
+
+ 63 | UATYP10 | Census urban area
+    C     R     U 
+ 5623 17568 49673 
+
+ 64 | Urban | Urban tract
+    0     1 
+17568 55296 
+
+ 8 | lahunv1 | Vehicle access, housing units without and low access at 1 mile, number 
+[1]    0.000000    0.000000    8.112596   38.214191 1950.698699
+
+ 9 | lahunv10 | Vehicle access, housing units without and low access at 10 miles, number 
+[1]    0.000    0.000    0.000    0.000 1799.957
+
+ 10 | lahunv10share | Vehicle access, percentage of housing units without and low access at 10 miles 
+[1] 0.0000000 0.0000000 0.0000000 0.0000000 0.8664173
+
+ 11 | lahunv1share | Vehicle access, housing units without and low access at 1 mile, share 
+[1] 0.000000000 0.000000000 0.005129617 0.024229552 1.000000031
+
+ 12 | lahunv20 | Vehicle access, housing units without and low access at 20 miles, number 
+[1]    0.000    0.000    0.000    0.000 1404.959
+
+ 13 | lahunv20share | Vehicle access, housing units without and low access at 20 miles, share 
+[1] 0.000000 0.000000 0.000000 0.000000 0.866348
+
+ 14 | lahunvhalf | Vehicle access, housing units without and low access at 1/2 mile, number 
+[1]    0.00000   13.51343   41.51330   89.32411 1950.69870
+
+ 15 | lahunvhalfshare | Vehicle access, housing units without and low access at 1/2 mile, share 
+[1] 0.000000000 0.009486797 0.026841480 0.056301567 1.000000031
+
+ 16 | lakids1 | Low access, children age 0-17 at 1 mile, number 
+[1]    0.0000    0.0000  222.2545  693.1415 9221.6177
+
+ 17 | lakids10 | Low access, children age 0-17 at 10 miles, number 
+[1]    0.000    0.000    0.000    0.000 3451.318
+
+ 18 | lakids10share | Low access, children age 0-17 at 10 miles, share 
+[1] 0 0 0 0 1
+
+ 19 | lakids1share | Low access, children age 0-17 at 1 mile, share 
+[1] 0.0000000 0.0000000 0.2749872 0.8199995 1.0000001
+
+ 20 | lakids20 | Low access, children age 0-17 at 20 miles, number 
+[1]    0.000    0.000    0.000    0.000 2667.536
+
+ 21 | lakids20share | Low access, children age 0-17 at 20 miles, share 
+[1] 0 0 0 0 1
+
+ 22 | lakidshalf | Low access, children age 0-17 at 1/2 mile, number 
+[1]     0.0000   316.9181   643.0000  1030.5204 11297.1113
+
+ 23 | lakidshalfshare | Low access, children age 0-17 at 1/2 mile, share 
+[1] 0.0000000 0.4993459 0.8268042 0.9980080 1.0000001
+
+ 24 | lalowi1 | Low access, low-income people at 1 mile, number 
+[1]     0.0000     0.0000   201.6329   758.7527 14086.5697
+
+ 25 | lalowi10 | Low access, low-income people at 10 miles, number 
+[1]    0.000    0.000    0.000    0.000 5571.445
+
+ 26 | lalowi10share | Low access, low-income people at 10 miles, share 
+[1] 0 0 0 0 1
+
+ 27 | lalowi1share | Low access, low-income people at 1 mile, share 
+[1] 0.00000000 0.00000000 0.05038519 0.19429567 1.00000005
+
+ 28 | lalowi20 | Low access, low-income people at 20 miles, number 
+[1]    0.000    0.000    0.000    0.000 4378.548
+
+ 29 | lalowi20share | Low access, low-income people at 20 miles, share 
+[1] 0 0 0 0 1
+
+ 30 | lalowihalf | Low access, low-income people at 1/2 mile, number 
+[1]     0.0000   310.3952   717.4455  1278.0690 14698.2328
+
+ 31 | lalowihalfshare | Low access, low-income people at 1/2 mile, share 
+[1] 0.00000000 0.08353957 0.18693940 0.32034702 1.00000006
+
+ 32 | lapop1 | Low access, people at 1 mile, number 
+[1]     0.000     0.000  1042.738  2968.385 35520.723
+
+ 33 | lapop10 | Low access, people at 10 miles, number 
+[1]    0.000    0.000    0.000    0.000 8727.253
+
+ 34 | lapop10share | Low access, people at 10 miles, share 
+[1] 0 0 0 0 1
+
+ 35 | lapop1share | Low access, people at 1 mile, share 
+[1] 0.0000000 0.0000000 0.2804694 0.8159213 1.0000001
+
+ 36 | lapop20 | Low access, people at 20 miles, number 
+[1]    0.000    0.000    0.000    0.000 6685.036
+
+ 37 | lapop20share | Low access, people at 20 miles, share 
+[1] 0 0 0 0 1
+
+ 38 | lapophalf | Low access, people at 1/2 mile, number 
+[1]     0.000  1557.606  2827.351  4238.000 37063.094
+
+ 39 | lapophalfshare | Low access, people at 1/2 mile, share 
+[1] 0.0000000 0.5055195 0.8218643 0.9975247 1.0000001
+
+ 40 | laseniors1 | Low access, seniors age 65+ at 1 mile, number 
+[1]     0.0000     0.0000   122.2045   398.8990 10791.1126
+
+ 41 | laseniors10 | Low access, seniors age 65+ at 10 miles, number 
+[1]    0    0    0    0 2531
+
+ 42 | laseniors10share | Low access, seniors age 65+ at 10 miles, share 
+[1] 0 0 0 0 1
+
+ 43 | laseniors1share | Low access, seniors age 65+ at 1 mile, share 
+[1] 0.0000000 0.0000000 0.2727358 0.8143310 1.0000001
+
+ 44 | laseniors20 | Low access, seniors age 65+ at 20 miles, number 
+[1]    0.000    0.000    0.000    0.000 2081.129
+
+ 45 | laseniors20share | Low access, seniors age 65+ at 20 miles, share 
+[1] 0 0 0 0 1
+
+ 46 | laseniorshalf | Low access, seniors age 65+ at 1/2 mile, number 
+[1]     0.0000   164.6296   353.6890   574.0000 15770.3677
+
+ 47 | laseniorshalfshare | Low access, seniors age 65+ at 1/2 mile, share 
+[1] 0.0000000 0.4963943 0.8189816 0.9977017 1.0000001
+
+ 57 | NUMGQTRS | Group quarters, tract population residing in, number 
+[1]     0     0     7    64 19496
+
+ 58 | OHU2010 | Housing units, total 
+[1]     0  1102  1521  2018 16043
+
+ 59 | PCTGQTRS | Group quarters, tract population residing in, share 
+[1] 0.0000000 0.0000000 0.0018121 0.0156522 1.0000000
+
+ 60 | POP2010 | Population, tract total 
+[1]     0.0  2883.5  4002.0  5323.0 37452.0
+null device 
+          1 
+[1] "2014-09-10 11:55:23 CDT"
