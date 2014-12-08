@@ -1,4 +1,4 @@
-[1] "2014-09-10 11:54:00 CDT"
+[1] "2014-12-05 16:14:07 CST"
 'data.frame':	72864 obs. of  64 variables:
  $ CensusTract         : chr  "01001020100" "01001020200" "01001020300" "01001020400" ...
  $ State               : chr  "AL" "AL" "AL" "AL" ...
@@ -66,12 +66,10 @@
  $ lahunv20share       : num  0 0 0 0 0 0 0 0 0 0 ...
 [1] 72864
 
-  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA 
- 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 
-  MA   MD   ME   MI   MN   MO   MS   MT   NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR 
-1476 1399  355 2774 1336 1393  662  271 2192  205  532  295 2007  499  687 4907 2949 1046  830 
-  PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
-3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
+  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA   MA   MD   ME   MI   MN   MO   MS   MT 
+ 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 1476 1399  355 2774 1336 1393  662  271 
+  NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR   PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
+2192  205  532  295 2007  499  687 4907 2949 1046  830 3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
 [1] 3143
 
  3 | GroupQuartersFlag | Group quarters, tract with high share
@@ -135,12 +133,10 @@
 55296 17568 
 
  62 | State | State
-  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA 
- 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 
-  MA   MD   ME   MI   MN   MO   MS   MT   NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR 
-1476 1399  355 2774 1336 1393  662  271 2192  205  532  295 2007  499  687 4907 2949 1046  830 
-  PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
-3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
+  AK   AL   AR   AZ   CA   CO   CT   DC   DE   FL   GA   HI   IA   ID   IL   IN   KS   KY   LA   MA   MD   ME   MI   MN   MO   MS   MT 
+ 167 1179  686 1526 8044 1249  832  179  218 4214 1965  332  825  298 3121 1508  770 1115 1143 1476 1399  355 2774 1336 1393  662  271 
+  NC   ND   NE   NH   NJ   NM   NV   NY   OH   OK   OR   PA   RI   SC   SD   TN   TX   UT   VA   VT   WA   WI   WV   WY 
+2192  205  532  295 2007  499  687 4907 2949 1046  830 3218  242 1103  222 1497 5258  588 1900  184 1455 1395  484  132 
 
  63 | UATYP10 | Census urban area
     C     R     U 
@@ -283,4 +279,4 @@
 [1]     0.0  2883.5  4002.0  5323.0 37452.0
 null device 
           1 
-[1] "2014-09-10 11:55:23 CDT"
+[1] "2014-12-05 16:15:28 CST"

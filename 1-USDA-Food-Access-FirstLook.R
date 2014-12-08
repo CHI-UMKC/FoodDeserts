@@ -3,6 +3,7 @@
 
 # UMKC Center for Health Insights
 # efg, 2014-09-09.
+# Write data to .csv files for import in MySQL, 2014-12-05.
 
 ########################################################################
 setwd("C:/Data/US-Government/USDA-Food/")  ##### Modify as appropriate
@@ -17,6 +18,7 @@ library(XLConnect)
 ########################################################################
 d <- readWorksheetFromFile("Data/Food-Access-Research-Atlas-Current.xlsx", sheet=3)
 str(d)
+write.csv(d, "Data/Food-Access-Research-Atlas-Current.csv", row.names=FALSE)
 
 length(unique(d$CensusTract))
 
@@ -25,6 +27,7 @@ length(unique(paste0(d$State, "|", d$County)))
 
 ########################################################################
 fields <- readWorksheetFromFile("Data/Food-Access-Research-Atlas-Current-Fields.xlsx", sheet=1)
+write.csv(fields, "Data/Food-Access-Research-Atlas-Current-Fields.csv", row.names=FALSE)
 
 for (i in 1:nrow(fields))
 {
