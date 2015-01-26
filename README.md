@@ -23,7 +23,7 @@ Script **1-USDA-Food-Access-FirstLook.R** extracts data from two of the workshee
 * sheet3: Food-Access-Research-Atlas-Current.csv (raw data)
 * sheet1: Food-Access-Research-Atlas-Current-Fields.csv (metadata)
 
-The metadata file was edited in an Excel file (Food-Access-Research-Atlas-Current-Fields.xlsx) to have a "Check" column with values Binary, Boxplot, or Table and used in the later run of the script to identify what preliminary analysis to perform.
+The metadata file was edited in an Excel file (Food-Access-Research-Atlas-Current-Fields.xlsx) to have a "Check" column with values Binary, Boxplot, or Table, which was used in a later run of the script to identify what preliminary analysis to perform.
 
 Frequency counts were made for binary (0/1) fields and those tagged "table".  Output can be seen in the file **1-USDA-Food-Access-FirstLook.txt**.
 
@@ -31,7 +31,7 @@ Frequency counts were made for binary (0/1) fields and those tagged "table".  Ou
 
 ## MySQL Load
 
-The script **FoodDeserts-Create-Load.SQL** loads the raw data file created above in a MySQL database.  The **.bat** shows calling MySQL from the command line.
+The script **FoodDeserts-Create-Load.SQL** loads the raw data file created above into a MySQL database.  The **.bat** shows calling MySQL from the command line.
 
 
 
